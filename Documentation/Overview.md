@@ -109,7 +109,7 @@ The 'Update Configuration Settings' button will open the 'Configuration' list in
 
 You may also clear the SharePoint lists manually if you wish - be sure to clear both the 'Players' and 'Player Challenges' lists.
 
-## Azure OpenAI - Rating Prompts
+### Azure OpenAI - Rating Prompts
 
 Azure OpenAI is used to rate prompts when a user submits one as part of complete a challenge.
 
@@ -122,6 +122,12 @@ This system prompt can be amended if you wish to control the scoring by editing 
 Expand the 'Rate Prompt' action in the 'Rate Prompt' and update the content in the 'messages content - 1' textbox.
 
 <img src="https://github.com/pnp/prompt-master/blob/main/Documentation/Images/promptmaster-rating-systemprompt-screenshot.png?raw=true" alt="Prompt Master Rate Prompt Action Screenshot"><br/>
+
+### Exporting data
+
+If desired, you can export the 'game' data post use. This could be useful in terms of sharing some of the prompts that were created during your event day.
+
+To export data, simply navigate to the 'Players' SharePoint list and use the 'Export' option in the menu to export to your tool of choice e.g. Excel.
 
 
 
