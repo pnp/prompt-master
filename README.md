@@ -22,6 +22,9 @@ Prompt Master provides the following capabilities:
 - Leaderboard.
 - Ability to generate fun/unique player names.
 
+<img src="https://github.com/pnp/prompt-master/blob/main/Documentation/Images/promptmaster-start-screenshot.png?raw=true" alt="Prompt Master Start Screenshot"><br/>
+
+<img src="https://github.com/pnp/prompt-master/blob/main/Documentation/Images/promptmaster-challenges-screenshot.png?raw=true" alt="Prompt Master Challenges Screenshot"><br/>
 ## Getting Started
 
 To get started please follow the [Deployment guide](Documentation/Deployment-guide.md). 
