@@ -116,4 +116,10 @@ If the user account you are using to run Prompt Master as does not have a premiu
 
 Ensure that the app opens at the start screen and is ready for play.
 
+## Step 8 (Optional): Import sample challenges
+
+Sample challenges can be found in the [Challenges.csv](/Challenges.csv) file.
+
+Simply create the corresponding list items in the 'Challenges' list as per the csv, the Image column references the appropriate image in the [ChallengeImages](/Documentation/Images/ChallengeImages/) folder.
+
 ### Deployment is now complete - enjoy using Prompt Master!
