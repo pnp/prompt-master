@@ -121,7 +121,7 @@ This system prompt can be amended if you wish to control the scoring by editing 
 
 Expand the 'Rate Prompt' action in the 'Rate Prompt' and update the content in the 'messages content - 1' textbox.
 
-<img src="https://github.com/pnp/prompt-master/blob/main/Documentation/Images/promptmaster-rating-systemprompt-screenshot?raw=true" alt="Prompt Master Rate Prompt Action Screenshot"><br/>
+<img src="https://github.com/pnp/prompt-master/blob/main/Documentation/Images/promptmaster-rating-systemprompt-screenshot.png?raw=true" alt="Prompt Master Rate Prompt Action Screenshot"><br/>
 
 
 
