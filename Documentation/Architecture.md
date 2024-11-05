@@ -4,7 +4,7 @@ The below documentation details the architecture of the Prompt Master solution. 
 
 ## Connectors
 
-The following connectors are used in the Prompt Pulse solution:
+The following connectors are used in the Prompt Master solution:
 
 - SharePoint
 - Office 365 Groups

@@ -72,7 +72,7 @@ Value: ID of an M365 group that contains admins for the Prompt Master app. This 
 1. Navigate to **Power Apps** and ensure you are in the correct environment you wish to deploy Prompt Master to.
 2. Click on the **Solutions** tab.
 3. Click on **Import**.
-4. Upload the **PromptMasterOAIConnector** solution zip file and click **Next**.
+4. Upload the **PromptMasterOAIConnector_1_0_0_0.zip** solution file and click **Next** (version number may differ).
 5. On the **Environment Variables** pane, enter the endpoint for your Open AI instance (**note you don't need the protocol or anything after /openai** for example **'promptmaster-contoso-oai.openai.azure.com'**).
 7. Click **Import**.
 8. A message should be displayed to say the solution has been imported successfully.
@@ -82,7 +82,7 @@ Value: ID of an M365 group that contains admins for the Prompt Master app. This 
 1. Navigate to **Power Apps** and ensure you are in the correct environment you wish to deploy Prompt Master to.
 2. Click on the **Solutions** tab.
 3. Click on **Import**.
-4. Upload the **PromptMaster** solution zip file and click **Next**.
+4. Upload the **PromptMaster_1_0_0_0.zip** solution file and click **Next** (version number may differ).
 5. Click **Sign in** next to the SharePoint and Office 365 Groups Connection Of and wait for the green tick.
 6. Click **Create** next to the custom connector connection (Prompt Master Azure OAI Connection). Enter any name you wish for the 'Connection name' and enter the API key for your OpenAI deployment that you created earlier and click **Create**.
 7. Click **Next**.
@@ -94,9 +94,10 @@ Value: ID of an M365 group that contains admins for the Prompt Master app. This 
 
 1. Locate the app under **Apps**.
 2. Share the app with the user accounts that will be running Prompt Master (you may want to add any administrators as co-owners so they can modify the app if you wish to). **We recommend running the app on a day as a single user.**
-3. Test the app by 'Playing' it.
 
 You may also wish to share the flows (**'Rate Prompt'**, **'Create Player Name'**) with admins who may need to view the run history or edit them. You can find them under **Flows** in the **Power Apps** portal or in the **Power Automate** portal.
+
+If you are using a developer environment, you will need to run Prompt Master as the user who deployed it. It is possible to share with another user but this process is more involved and will require the use of Security Roles, this guide assumes you have the knowledge to do this and does not cover it.
 
 ## Step 6: Configure SharePoint list permissions
 
@@ -131,7 +132,7 @@ Locate the app in the Power Apps portal and run it.
 
 When you launch the app for the first time you **may** be prompted for the API key for the Azure OpenAI instance that you copied earlier (**Note - for each user account that runs the app they will prompted for this API key - this will only happen once**). 
 
-If the user account you are using to run Prompt Master as does not have a premium license, you can use a 30 day trial, or as mentioned in the deployment guide, you can use the developer plan and the user account who owns the plan. If you are 
+If the user account you are using to run Prompt Master as does not have a premium license, you can use a 30 day trial, or as mentioned in the deployment guide, you can use the developer plan and the user account who owns the plan.
 
 Ensure that the app opens at the start screen and is ready for play.
 
