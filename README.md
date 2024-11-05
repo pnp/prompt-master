@@ -3,13 +3,13 @@
 | [Overview](/Documentation/Overview.md) | [Deployment guide](/Documentation/Deployment-guide.md) | [Architecture](/Documentation/Architecture.md)
 | ---- | ---- | ----
 
-Prompt Master is a Microsoft 365 Copilot gamification solution in the form of a Power App. It is designed to be used at events such as Promptathons, Copilot Excitement days etc. 
+Prompt Master is a Microsoft 365 Copilot gamification solution in the form of a Power App. It is designed to be used at events such as Copilot Excitement days, Promptathons etc. 
 
-It allows people to compete against each other for top spot in a leaderboard by completing 'challenges' to create prompts.
+It allows people to compete against each other for the top spot in the leaderboard by completing 'challenges' based around prompt creation.
 
-Prompts are automatically rated and a score from 0-100 is given, in addition suggestions to improve a persons' prompt are provided.
+Prompts are automatically rated and a score from 0-100 is given, in addition suggestions on how to improve the prompt are provided.
 
-It is designed to be opened and ran under a single user account and would be best placed displayed/used on one or two machines during an event.
+It is designed to be opened and ran under a single user account and would be best placed displayed/used on one or two machines/screens during an event. 
 
 Prompt Master uses Azure OpenAI together with a Custom Connector to rate and provide suggestions/feedback on prompts.
 
