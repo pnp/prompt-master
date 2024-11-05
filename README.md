@@ -13,7 +13,7 @@ It is designed to be opened and ran under a single user account and would be bes
 
 Prompt Master uses Azure OpenAI together with a Custom Connector to rate and provide suggestions/feedback on prompts.
 
-## Capabilities
+## Capabilities 🎮🕹️
 
 Prompt Master provides the following capabilities:
 
