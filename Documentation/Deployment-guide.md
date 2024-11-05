@@ -4,7 +4,7 @@ Please note - this deployment guide assumes a proficient level of knowledge in d
 
 ## Prerequisites
 
-- 1 x Premium license for Power Apps **OR** use the [Developer plan](https://learn.microsoft.com/en-us/power-platform/developer/plan). The user account you run Prompt Master will require this license or the developer plan. If you use a developer plan, you will need to run Prompt Master as the user account who is assigned the developer plan.
+- 1 x Premium license for Power Apps **OR** use the [Developer plan](https://learn.microsoft.com/en-us/power-platform/developer/plan). The user account you run Prompt Master will require this license or the developer plan/environment. If you use a developer plan, you will need to run Prompt Master as the user account who is assigned the developer plan.
 - Power Apps environment with a Dataverse database deployed (only required due to the solution using Environment Variables). You may use the default environment. If you do not have capacity to create a Dataverse database, you may need to use the default environment. If you are using the developer plan, you can use the developer environment.
 - SharePoint site which will contain the lists - we recommend creating a new one for Prompt Master.
 - Full Control access to the above site. 
@@ -83,10 +83,12 @@ Value: ID of an M365 group that contains admins for the Prompt Master app. This 
 2. Click on the **Solutions** tab.
 3. Click on **Import**.
 4. Upload the **PromptMaster** solution zip file and click **Next**.
-5. Click **Sign in** next to each of the connectors and wait for the green tick.
-6. On the **Environment Variables** pane, select the SharePoint site you created, the relevant lists and enter the URL to your Prompt Master site.
-7. Click **Import**.
-8. A message should be displayed to say the solution has been imported successfully.
+5. Click **Sign in** next to the SharePoint and Office 365 Groups Connection Of and wait for the green tick.
+6. Click **Create** next to the custom connector connection (Prompt Master Azure OAI Connection). Enter any name you wish for the 'Connection name' and enter the API key for your OpenAI deployment that you created earlier and click **Create**.
+7. Click **Next**.
+8. On the **Environment Variables** pane, select the SharePoint site you created (you may need to paste the URL into the dropdown if it cannot be found), the relevant lists and enter the URL to your Prompt Master site. (Ignore any warnings about access).
+9. Click **Import**.
+10. A message should be displayed to say the solution has been imported successfully.
 
 ## Step 5: Share the app/flows
 
@@ -106,17 +108,34 @@ Bear in mind that as the solution uses a custom connector and this is invoked vi
 
 **Note - These accounts will have access to all lists in the site to add/edit/delete items. As Prompt Master is designed to be used for excitment events/promptathons and not company wide use, this typically wouldn't be an issue. Ensure that you run the app as a user account whom you are happy to have this level of access.**
 
-## Step 7: Run the app
+## Step 7: Reconnect the flows
+
+At the time of writing, due to a Power Apps bug, the app must be edited and the flows removed and re-added. Follow the steps below to do this:
+
+1. Locate the app in **Power Apps** and edit it.
+2. Click the elipsis on the left menu.
+3. Locate the 'Create Player Name' and 'Rate Prompt' flows and click the elipsis.
+4. Click 'Remove from app' for each one.
+
+<img src="https://github.com/pnp/prompt-master/blob/main/Documentation/Images/promptmaster-app-removeflows.png?raw=true" alt="Prompt Master App Remove Flow Screenshot"><br/>
+
+5. Click 'Add flow' and click the 'Create Player Name' and 'Rate Prompt' flows to add them back into the app.
+
+<img src="https://github.com/pnp/prompt-master/blob/main/Documentation/Images/promptmaster-app-addflows.png?raw=true" alt="Prompt Master App Add Flow Screenshot"><br/>
+
+6. Save and publish the app and leave edit mode.
+
+## Step 8: Run the app
 
 Locate the app in the Power Apps portal and run it.
 
-When you launch the app for the first time you will be prompted for the API key for the Azure OpenAI instance that you copied earlier (**Note - for each user account that runs the app they will prompted for this API key - this will only happen once**). 
+When you launch the app for the first time you **may** be prompted for the API key for the Azure OpenAI instance that you copied earlier (**Note - for each user account that runs the app they will prompted for this API key - this will only happen once**). 
 
-If the user account you are using to run Prompt Master as does not have a premium license, you can use a 30 day trial, or as mentioned in the deployment guide, you can use the developer plan and the user account who owns the plan. 
+If the user account you are using to run Prompt Master as does not have a premium license, you can use a 30 day trial, or as mentioned in the deployment guide, you can use the developer plan and the user account who owns the plan. If you are 
 
 Ensure that the app opens at the start screen and is ready for play.
 
-## Step 8 (Optional): Import sample challenges
+## Step 9 (Optional): Import sample challenges
 
 Sample challenges can be found in the [Challenges.csv](/Challenges.csv) file.
 
