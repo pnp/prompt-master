@@ -1,4 +1,4 @@
-# Overview
+# Overview - Prompt Master
 
 Prompt Master consists of the following components:
 
@@ -111,7 +111,7 @@ You may also clear the SharePoint lists manually if you wish - be sure to clear 
 
 ### Azure OpenAI - Rating Prompts
 
-Azure OpenAI is used to rate prompts when a user submits one as part of complete a challenge.
+Azure OpenAI is used to rate prompts when a user submits one as part of completing a challenge.
 
 Specifically the 'Chat Completions' endpoint/functionality is used for rating a prompt.
 
