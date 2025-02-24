@@ -43,7 +43,7 @@ To delete challenges, simply delete the challenge list item from the Challenges 
 
 **Note - do not delete a challenge list item once you have rolled out Prompt Master. If you wish to no longer display a challenge to a user, simply update the 'End Date' column with an appropriate date.**
 
-<img src="https://github.com/pnp/prompt-master/blob/main/Documentation/Images/promptmaster-challenges-list-screenshot.png?raw=true" alt="Prompt Master Challenges List Screenshot"><br/>
+<img src="https://github.com/pnp/prompt-master/blob/main/Documentation/Images/promptmasterpro-challenges-list-screenshot.png?raw=true" alt="Prompt Master Pro Challenges List Screenshot"><br/>
 
 ## New Challenge Notifications
 
@@ -66,15 +66,34 @@ Ensure Prompt Master Pro has been deployed to Microsoft Teams and is shared with
 The below steps cover how users play Prompt Master Pro although it has been designed to be intuitive so reading these steps may not be required.
 
 1. User launches the Prompt Master Pro app in Microsoft Teams or via Power Apps.
+
+<img src="https://github.com/pnp/prompt-master/blob/main/Documentation/Images/promptmasterpro-start-screenshot.png?raw=true" alt="Prompt Master Pro Loading Screenshot"><br/>
+
 2. User player 'profile' is automatically created for the user and they will appear in the leaderboard (item is automatically created in the 'Players' list).
 3. User completes the tutorial ('Tutorial Complete' column set for the user in the 'Players' list).
+
+<img src="https://github.com/pnp/prompt-master/blob/main/Documentation/Images/promptmasterpro-tutorial-screenshot.png?raw=true" alt="Prompt Master Pro Tutorial Screenshot"><br/>
+
 4. User clicks on a challenge card for a challenge that they wish to complete.
+
+<img src="https://github.com/pnp/prompt-master/blob/main/Documentation/Images/promptmasterpro-challenges-screenshot.png?raw=true" alt="Prompt Master Pro Challenges Screenshot"><br/>
+
 5. User can read the instructions and tips for completing the challenge. From here the player can also launch Microsoft 365 Copilot directly using the button (to allow them to write/test their prompt - if the challenge relates to M365 Copilot).
 6. User submits their prompt by entering it into the textbox and clicking 'Submit'.
+
+<img src="https://github.com/pnp/prompt-master/blob/main/Documentation/Images/promptmasterpro-challenge-prompt-screenshot.png?raw=true" alt="Prompt Master Pro Challenge Screenshot"><br/>
+
 7. User receives a message to state their prompt has been submitted for rating and will be sent to them through Microsoft Teams.
+
+<img src="https://github.com/pnp/prompt-master/blob/main/Documentation/Images/promptmasterpro-submit-dialog-screenshot.png?raw=true" alt="Prompt Master Pro Challenge Screenshot"><br/>
+
+8. Challenge updated in the app to reflect it is 'In Progress'.
+
+<img src="https://github.com/pnp/prompt-master/blob/main/Documentation/Images/promptmasterpro-challenge-in-progress-screenshot.png?raw=true" alt="Prompt Master Pro In progress Screenshot"><br/>
+
 8. User receives an adaptive card in Teams notifying them that the challenge has been completed along with the rating their prompt received and their position in the leaderboard. The card contains buttons enabling the user to directly launch Prompt Master Pro and continue playing. 
 
-<img src="https://github.com/pnp/prompt-master/blob/main/Documentation/Images/promptmaster-challenges-screenshot.png?raw=true" alt="Prompt Master Challenges Screenshot"><br/>
+<img src="https://github.com/pnp/prompt-master/blob/main/Documentation/Images/promptmasterpro-notification-screenshot.png?raw=true" alt="Prompt Master Pro Challenge Completed Notification Screenshot"><br/>
 
 9. User can access Prompt Master Pro and view the leaderboard through the adaptive card.
 10. User accesses the 'My Stats' screen of the app and continues playing by completing more challenges.
@@ -83,13 +102,17 @@ The below steps cover how users play Prompt Master Pro although it has been desi
 
 The top 3 players in the leaderboard are displayed in Gold, Silver and Bronze.
 
+If the current user is outside of the top 3, they are highlighted in blue.
+
 💡 **You could look to hand out 'swag' or rewards to the top players.**
 
-<img src="https://github.com/pnp/prompt-master/blob/main/Documentation/Images/promptmaster-leaderboard-screenshot.png?raw=true" alt="Prompt Master Leaderboard Screenshot"><br/>
+<img src="https://github.com/pnp/prompt-master/blob/main/Documentation/Images/promptmasterpro-leaderboard-screenshot.png?raw=true" alt="Prompt Master Pro Leaderboard Screenshot"><br/>
 
 ## My Stats
 
 The 'My Stats' screen in Prompt Master Pro allows the user to view their progress and see various metrics such as the number of challenges they have completed and their recent activity.
+
+<img src="https://github.com/pnp/prompt-master/blob/main/Documentation/Images/promptmasterpro-stats-screenshot.png?raw=true" alt="Prompt Master Pro My Stats Challenge Completed Notification Screenshot"><br/>
 
 ## Administration
 
@@ -111,7 +134,7 @@ This system prompt can be amended if you wish to control the scoring by editing 
 
 Expand the 'Rate Prompt' action in the 'Rate Prompt' and update the content in the 'messages content - 1' textbox.
 
-<img src="https://github.com/pnp/prompt-master/blob/main/Documentation/Images/promptmaster-rating-systemprompt-screenshot.png?raw=true" alt="Prompt Master Rate Prompt Action Screenshot"><br/>
+<img src="https://github.com/pnp/prompt-master/blob/main/Documentation/Images/promptmasterpro-rating-systemprompt-screenshot.png?raw=true" alt="Prompt Master Pro Rate Prompt Action Screenshot"><br/>
 
 
 
