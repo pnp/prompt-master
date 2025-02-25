@@ -4,7 +4,33 @@ Productivity Wizard,Craft the ultimate prompt to help you be more productive in 
 - Display the data in a format other than text.",Copilot
 Superhero,Create a prompt that will generate a superhero character that reflects your working style.,superhero.jpeg,"- Where should Copilot look to understand your working style?
 - What should be included in the response? I.e. Strengths, opportunities",Copilot
-Task Master,Craft the ultimate task prompt to help you manage your tasks more effectively.,task-master.jpeg,"- Consider data sources that you could retrieve tasks from.
+Taskmaster,Craft the ultimate task prompt to help you manage your tasks more effectively.,task-master.jpeg,"- Consider data sources that you could retrieve tasks from.
 - How will you determine the priority of tasks?",Copilot
 Brainstorming Hero,Create a prompt for generating ideas on improving customer satisfaction. ,brainstorming-hero.jpeg,"- Think about the role you want Copilot to play as your brainstorming partner
 - How you would like Copilot to respond?",Copilot
+Minutes Master,Write a prompt taking a meeting transcript and turning it into formal meeting minutes to share with a client.,minutes-master.jpeg,Think about the order and format in which you want the minutes to be displayed as well the the level of detail and tone.,Teams
+The Learn it all,You want to create a learning plan to upskill on M365 Copilot. Create a prompt that gives you a one month learning plan.,the-learnitall.jpeg,"- What is your learning style? 
+- How much time do you have each day or week and how much technical depth do you need?",Copilot
+Project Guru,As a project manager you need to keep everyone updated on the latest and greatest. Create a prompt for sharing a weekly project update with your stakeholders.,project-guru.jpeg,"- What data do you need to reference? 
+- What sections should be included and how should information be presented?",Copilot
+Inclusion Specialist,Create a prompt that explains a difficult concept into something an everyday person would understand.,inclusion-specialist.jpeg,"Consider the reading age, how acronyms should be displayed and the type of language you want to use.",Copilot
+Keynote King,Congratulations! You've been asked to provide the keynote speech at an all company event on the topic of Gen AI in the workplace. Generate a speech to deliver.,keynote-king.jpeg,"- How long Is the speech? 
+- What emotion do you want to envoke in the audience? 
+- What should the focus be?",Copilot
+The Executive Briefing,"You’ve been tasked with preparing an executive report summarizing the results of a recent market analysis. The report needs to be concise, yet detailed enough to inform high-level decisions on the company’s next steps. Use Copilot to create an impactful executive summary, highlight key insights, and offer strategic recommendations.",the-exec-briefing.jpeg,"- Consider a structure that conveys high-level insights first, followed by detailed analysis.
+- Use Copilot to refine and summarize the key findings and trends.
+- Aim for a formal, business-appropriate tone that speaks to senior leadership.",Word
+Winning the Proposal,"A new project has been proposed within your organization, and you're responsible for preparing a business proposal to secure approval. You’ll need to provide a clear problem statement, solution outline, and the financial impact. Use Copilot to draft a formal proposal that’s compelling, clear, and tailored for your decision-makers.",winning-the-proposal.jpeg,"- Start with the business need and solution overview, then move to financial and operational details.
+- Consider bringing in information from supporting documents.
+- Maintain a persuasive tone that supports the solution as the best course of action.",Word
+Client Connection,"Your company is launching a new product, and you’re in charge of reaching out to key clients via email. The goal is to inform them about the product, explain its benefits, and invite them to a webinar. Use Copilot to craft an email that engages clients, builds interest, and invites them to take action.",client-connection.jpeg,"- Ensure the messaging is clear and customer-focused.
+- Consider querying/bringing in content from supporting files.
+- Experiment with personalization to make the emails feel tailored to the recipient.
+- Craft follow-up emails that nudge clients towards registering for the webinar.",Outlook
+Chat Detective,"A long-running project chat holds valuable insights, but it’s becoming overwhelming to track down important messages. Use Copilot to search through the chat and extract specific information, like deadlines, action items, or project updates.",chat-detective.jpeg,"- Specify what you're looking for: key decisions, tasks, or dates.
+- Ask Copilot to organize or summarize key findings for clarity.
+- Experiment with phrasing to refine search results and ensure all relevant messages are captured.",Teams
+Data Dive,"Analyze a large sales dataset in Excel to uncover trends, outliers, and actionable insights. Use Python to clean, visualize, and summarize the data, and create a clear report for your team.",data-dive.jpeg,"- Clean the dataset by checking for missing values and duplicates.
+- Use Python to create visualizations like charts or trend lines.
+- Look for trends, correlations, or anomalies to inform decisions.
+- Automate key insights and summarize them within Excel.",Excel

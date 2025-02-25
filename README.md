@@ -1,17 +1,23 @@
-# Prompt Master <img align="right" width="140" height="140" src="https://github.com/pnp/prompt-master/blob/main/Documentation/Images/prompt-master-logo.png"> 
+# Prompt Master/Prompt Master Pro <img align="right" width="140" height="140" src="https://github.com/pnp/prompt-master/blob/main/Documentation/Images/prompt-master-logo.png"> 
 
-| [Overview](/Documentation/Overview.md) | [Deployment guide](/Documentation/Deployment-guide.md) | [Architecture](/Documentation/Architecture.md)
-| ---- | ---- | ----
+| [Overview](/Documentation/Overview.md) | [Overview - Prompt Master Pro](/Documentation/Overview-PMPro.md) | [Deployment guide](/Documentation/Deployment-guide.md) | [Architecture](/Documentation/Architecture.md)
+| ---- | ---- | ---- | ----
 
-Prompt Master is a Microsoft 365 Copilot gamification solution in the form of a Power App. It is designed to be used at events such as Copilot Excitement days, Promptathons etc. 
+Prompt Master and Prompt Master **'Pro'** are Microsoft 365 Copilot/Copilot Chat gamification solutions developed as Power Apps. Both solutions enable users to compete for the top spot on the leaderboard by completing challenges centered around prompt creation.
 
-It allows people to compete against each other for the top spot on the leaderboard by completing 'challenges' based around prompt creation.
+Both solutions automatically rate prompts with a score from 0-100, providing suggestions for improvement. Azure OpenAI and a Custom Connector are used to rate and provide feedback on prompts.
 
-Prompts are automatically rated and a score from 0-100 is given, in addition suggestions on how to improve the prompt are provided.
+### Prompt Master
 
-It is designed to be opened and ran under a single user account and would be best placed displayed/used on one or two machines/screens during an event. 
+Prompt Master is designed for use at events such as Copilot Excitement Days and Promptathons. It would typically be ran on a laptop, desktop, or screen, where users crzate a player name and complete challenges without needing to login. This version is intended for use during events, allowing multiple sessions with rsets between each event. It is best suited for display on one or two machines/screens during an event.
 
-Prompt Master uses Azure OpenAI together with a Custom Connector to rate and provide suggestions/feedback on prompts.
+<img src="https://github.com/pnp/prompt-master/blob/main/Documentation/Images/promptmaster-start-screenshot.png?raw=true" alt="Prompt Master Start Screenshot"><br/>
+
+<img src="https://github.com/pnp/prompt-master/blob/main/Documentation/Images/promptmaster-challenges-screenshot.png?raw=true" alt="Prompt Master Challenges Screenshot"><br/>
+
+### Prompt Master Pro
+
+Prompt Master Pro is the deployable version intended for internal organizational use. It integrates with Microsoft Teams, automatically creating player profiles for users and sending notificatons via adaptive cards. Prompt Master Pro is the ultimate solution to facilite internal Copilot adoption through gamification. This version is designed to be deployed across an organization, allowing employees to access and participate in challenges seamlessly.
 
 ## Capabilities 🎮🕹️
 
@@ -22,16 +28,24 @@ Prompt Master provides the following capabilities:
 - Leaderboard.
 - Ability to generate fun/unique player names.
 
-<img src="https://github.com/pnp/prompt-master/blob/main/Documentation/Images/promptmaster-start-screenshot.png?raw=true" alt="Prompt Master Start Screenshot"><br/>
+Prompt Master Pro builds on these capabilities, adding:
 
-<img src="https://github.com/pnp/prompt-master/blob/main/Documentation/Images/promptmaster-challenges-screenshot.png?raw=true" alt="Prompt Master Challenges Screenshot"><br/>
+- Automatic player creation for a user based on their account.
+- Adaptive card notifications for completed and new challenges.
+- Ability to create challenges with specific start and end dates enabling the ability to have challenges that are 'coming soon'/time limited challenges.
+
+<img src="https://github.com/pnp/prompt-master/blob/main/Documentation/Images/promptmasterpro-challenges-screenshot.png?raw=true" alt="Prompt Master Pro Challenges Screenshot"><br/>
+
+<img src="https://github.com/pnp/prompt-master/blob/main/Documentation/Images/promptmasterpro-stats-screenshot.png?raw=true" alt="Prompt Master Pro My Stats Screenshot"><br/>
+
+
 ## Getting Started
 
-To get started please follow the [Deployment guide](Documentation/Deployment-guide.md). 
+To get started with either solution please follow the [Deployment guide](Documentation/Deployment-guide.md). 
 
 ## How to 'Play'
 
-For more information and how to find out how to 'play', check out the [Overview](Documentation/Overview.md).
+For more information and how to find out how to 'play' both solutions, check out the [Overview](Documentation/Overview.md) (Prompt Master) and  [Overview](Documentation/Overview-PMPro.md) (Prompt Master Pro).
 
 ## Issues
 
@@ -43,7 +57,7 @@ We 💖 to accept contributions.
 
 Check out our [Contribution guidelines](/CONTRIBUTING.md) for guidance on how to contribute. 
 
-If you want to get involved with helping us enhance Prompt Pulse, whether that is suggesting or adding new functionality, updating our documentation or fixing bugs, we would love to hear from you.
+If you want to get involved with helping us enhance both Prompt Master solutions, whether that is suggesting or adding new functionality, updating our documentation or fixing bugs, we would love to hear from you.
 
 ## Support
 
