@@ -9,7 +9,7 @@ Both solutions automatically rate prompts with a score from 0-100, providing sug
 
 ### Prompt Master
 
-Prompt Master is designed for use at events such as Copilot Excitement Days and Promptathons. It would typically be ran on a laptop, desktop, or screen, where users crzate a player name and complete challenges without needing to login. This version is intended for use during events, allowing multiple sessions with rsets between each event. It is best suited for display on one or two machines/screens during an event.
+Prompt Master is designed for use at events such as Copilot Excitement Days and Promptathons. It would typically be ran on a laptop, desktop, or screen, where users create a player name and complete challenges without needing to login. This version is intended for use during events, allowing multiple sessions with resets between each event. It is best suited for display on one or two machines/screens during an event.
 
 <img src="https://github.com/pnp/prompt-master/blob/main/Documentation/Images/promptmaster-start-screenshot.png?raw=true" alt="Prompt Master Start Screenshot"><br/>
 
