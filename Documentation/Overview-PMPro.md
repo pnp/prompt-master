@@ -41,7 +41,7 @@ To create a challenge, simply create a new list item in the Challenges list. See
 
 To delete challenges, simply delete the challenge list item from the Challenges list. 
 
-**Note - do not delete a challenge list item once you have rolled out Prompt Master. If you wish to no longer display a challenge to a user, simply update the 'End Date' column with an appropriate date.**
+**Note - do not delete a challenge list item once you have rolled out Prompt Master Pro. If you wish to no longer display a challenge to a user, simply update the 'End Date' column with an appropriate date.**
 
 <img src="https://github.com/pnp/prompt-master/blob/main/Documentation/Images/promptmasterpro-challenges-list-screenshot.png?raw=true" alt="Prompt Master Pro Challenges List Screenshot"><br/>
 
