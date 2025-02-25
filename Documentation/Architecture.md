@@ -152,7 +152,7 @@ As detailed in the [Overview - Prompt Master Pro](Overview-PMPro.md) documentati
 
   | Column Name    | Type | Used for |
 | -------- | ------- | ------- | 
-| Name  | Multiple lines of text    | Name of the challenge.
+| Name  | Single line of text    | Name of the challenge.
 | Instructions | Multiple lines of text     | Instructions to complete the challenge.
 | Image | Image     | Image to display for the challenge.
 | Tips    | Multiple lines of text  | Tips to help a user complete the challenge.
