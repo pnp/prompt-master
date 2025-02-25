@@ -89,7 +89,7 @@ The below steps cover how users play Prompt Master Pro although it has been desi
 
 8. Challenge updated in the app to reflect it is 'In Progress'.
 
-<img src="https://github.com/pnp/prompt-master/blob/main/Documentation/Images/promptmasterpro-challenge-in-progress-screenshot.png?raw=true" alt="Prompt Master Pro In progress Screenshot"><br/>
+<img src="https://github.com/pnp/prompt-master/blob/main/Documentation/Images/promptmasterpro-challenge-inprogress-screenshot.png?raw=true" alt="Prompt Master Pro In progress Screenshot"><br/>
 
 8. User receives an adaptive card in Teams notifying them that the challenge has been completed along with the rating their prompt received and their position in the leaderboard. The card contains buttons enabling the user to directly launch Prompt Master Pro and continue playing. 
 
