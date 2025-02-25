@@ -3,7 +3,7 @@
 | [Overview](/Documentation/Overview.md) | [Overview - Prompt Master Pro](/Documentation/Overview-PMPro.md) | [Deployment guide](/Documentation/Deployment-guide.md) | [Architecture](/Documentation/Architecture.md)
 | ---- | ---- | ---- | ----
 
-Prompt Master and Prompt Master **'Pro'** are Microsoft 365 Copilot gamification solutions developed as Power Apps. Both solutions enable users to compete for the top spot on the leaderboard by completing challenges centered around prompt creation.
+Prompt Master and Prompt Master **'Pro'** are Microsoft 365 Copilot/Copilot Chat gamification solutions developed as Power Apps. Both solutions enable users to compete for the top spot on the leaderboard by completing challenges centered around prompt creation.
 
 Both solutions automatically rate prompts with a score from 0-100, providing suggestions for improvement. Azure OpenAI and a Custom Connector are used to rate and provide feedback on prompts.
 
@@ -17,7 +17,7 @@ Prompt Master is designed for use at events such as Copilot Excitement Days and 
 
 ### Prompt Master Pro
 
-Prompt Master Pro is the deployable version intended for internal organizational use. It integrates with Microsoft Teams, automatically creating player profiles for users and sending notificatons via adaptive cards. Prompt Master Pro is the ultimate solution to facilite internal adoption through gamification. This version is designed to be deployed across an organization, allowing employees to access and participate in challenges seamlessly.
+Prompt Master Pro is the deployable version intended for internal organizational use. It integrates with Microsoft Teams, automatically creating player profiles for users and sending notificatons via adaptive cards. Prompt Master Pro is the ultimate solution to facilite internal Copilot adoption through gamification. This version is designed to be deployed across an organization, allowing employees to access and participate in challenges seamlessly.
 
 ## Capabilities 🎮🕹️
 
@@ -45,7 +45,7 @@ To get started with either solution please follow the [Deployment guide](Documen
 
 ## How to 'Play'
 
-For more information and how to find out how to 'play' both solutions, check out the [Overview](Documentation/Overview.md).
+For more information and how to find out how to 'play' both solutions, check out the [Overview](Documentation/Overview.md) (Prompt Master) and  [Overview](Documentation/Overview-PMPro.md) (Prompt Master Pro).
 
 ## Issues
 

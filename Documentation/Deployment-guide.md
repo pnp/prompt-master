@@ -172,7 +172,7 @@ Simply create the corresponding list items in the 'Challenges' list as per the c
 
   | Column Name    | Type | Values |
 | -------- | ------- | ------- | 
-| Name  | Multiple lines of text    |
+| Name  | Single line of text    |
 | Instructions | Multiple lines of text     |
 | Image | Image     |  |
 | Tips    | Multiple lines of text  |
@@ -258,14 +258,25 @@ Value: ID of the Prompt Master Pro Power App (we will get this value later).
 9. Click **Import**.
 10. A message should be displayed to say the solution has been imported successfully.
 
-## Step 5: Share the app/flows
+## Step 5: Obtain the AppId
+
+1. Navigate to **Power Apps** and ensure you are in the correct environment that you deployed Prompt Master Pro to.
+2. Click on the **Apps** tab.
+3. Locate the Prompt Master Pro app and click on the elipsis > Details.
+4. Copy the value underneath **App ID**.
+5. Navigate to your Prompt Master Pro SharePoint site.
+6. Locate and open the **Configuration** list.
+7. Update the **Value** column for the AppId list item you paste the App ID you copied earlier.
+8. Save the list item.
+
+## Step 6: Share the app/flows
 
 1. Locate the app under **Apps**.
 2. Share the app with the user accounts that will use Prompt Master Pro (you may want to add any administrators as co-owners so they can modify the app if you wish to).
 
 You may also wish to share the flows (**'Rate Prompt'**, **'New Challenge Notification'**) with admins who may need to view the run history or edit them. You can find them under **Flows** in the **Power Apps** portal or in the **Power Automate** portal.
 
-## Step 6: Configure SharePoint list permissions
+## Step 7: Configure SharePoint list permissions
 
 Before using Prompt Master Pro, it is neccessary to configure the permisions on the SharePoint site/lists. This step assumes a proficient level of knowledge in configuring SharePoint permissions.
 
@@ -275,9 +286,9 @@ Users will need **edit** rights to the following lists: Players, Player Challeng
 
 Users will need **read** rights to the following lists: Challenges, Configuration.
 
-## Step 7: Add Prompt Master Pro app to Microsoft Teams
+## Step 8: Add Prompt Master Pro app to Microsoft Teams
 
-## Step 8 (Optional): Import sample challenges
+## Step 9 (Optional): Import sample challenges
 
 Sample challenges can be found in the [Challenges.csv](/Challenges.csv) file.
 
