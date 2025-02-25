@@ -158,7 +158,7 @@ Simply create the corresponding list items in the 'Challenges' list as per the c
 - Power Apps environment with a Dataverse database deployed (only required due to the solution using Environment Variables). You may use the default environment. If you do not have capacity to create a Dataverse database, you may need to use the default environment.
 - SharePoint site which will contain the lists - we recommend creating a new one for Prompt Master.
 - Full Control access to the above site. 
-- The [latest release](https://github.com/pnp/prompt-master/releases/latest) of Prompt Master Pro.
+- The [latest release](https://github.com/pnp/prompt-master/releases/latest) of Prompt Master (This contains Prompt Master Pro).
 - Administrator account with access to the Microsoft Teams Admin Center (for deployment of the Prompt Master Pro app to Teams).
 - Azure subscription.
 - Access to create an Azure OpenAI instance and model deployment (you may use an existing one if you wish).
