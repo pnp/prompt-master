@@ -22,6 +22,8 @@ It has been designed for tablets/desktops so it can easily be used on a touchscr
 
 Before using Prompt Master, you will need to create the challenges for people to complete.
 
+**Note - sample challenges are provided in the [Challenges.csv](/Challenges.csv) file allowing you to get started quickly.**
+
 Challenges are stored in a SharePoint list named 'Challenges' which you created during deployment.
 
 To create a challenge, simply create a new list item in the Challenges list. See the table below for details of expected column values.

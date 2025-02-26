@@ -7,6 +7,8 @@ Prompt Master and Prompt Master **'Pro'** are Microsoft 365 Copilot/Copilot Chat
 
 Both solutions automatically rate prompts with a score from 0-100, providing suggestions for improvement. Azure OpenAI and a Custom Connector are used to rate and provide feedback on prompts.
 
+Additionally, sample challenges are provided allowing you to get started even quicker.
+
 ### Prompt Master
 
 Prompt Master is designed for use at events such as Copilot Excitement Days and Promptathons. It would typically be ran on a laptop, desktop, or screen, where users create a player name and complete challenges without needing to login. This version is intended for use during events, allowing multiple sessions with resets between each event. It is best suited for display on one or two machines/screens during an event.

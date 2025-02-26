@@ -22,7 +22,7 @@ The app uses the 'tablet' design format which is designed to work on laptops/des
 
 Before using Prompt Master Pro, you will need to create the challenges for users to complete.
 
-As detailed in the deployment guide, you can optionally import and use the sample challenges.
+**Note - sample challenges are provided in the [Challenges.csv](/Challenges.csv) file allowing you to get started quickly.**
 
 Challenges are stored in a SharePoint list named 'Challenges' which you created during deployment.
 
