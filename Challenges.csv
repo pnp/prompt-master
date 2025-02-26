@@ -34,3 +34,12 @@ Data Dive,"Analyze a large sales dataset in Excel to uncover trends, outliers, a
 - Use Python to create visualizations like charts or trend lines.
 - Look for trends, correlations, or anomalies to inform decisions.
 - Automate key insights and summarize them within Excel.",Excel
+Pure Positivity,"Uh Oh. Bad news, the all department party has been cancelled due to budget constraints and you need to inform your reports. Draft an email letting them know it's now virtual but remain positive.",pure-positivity.jpeg,"Think about how you'll pitch it to prevent your reports complaining heavily, what information can you add to help recipients understand why it's changed, what will your call to action be?",Outlook
+Wellbeing Wizard,Draft a prompt to create a presentation on wellbeing tips as you're coming up to year end and you want to ensure colleagues don't burn out. The presentation should provide helpful tips and information on why looking after yourself at times of high pressure is important.,wellbeing-wizard.jpeg,"`- What sections do you want to include? 
+- Are you delving into the science or keeping it simple? 
+- How will you make the session interactive?",PowerPoint
+Artistic Flare,You are tasked with revamping a very dull presentation on health and safety in the workplace. Craft a prompt to generate an image of various mishaps in the workplace due to poor health and safety,,"`- What should be included in the image? 
+- What sort of artistic style do you want? 
+- Think about the level of detail to include to get the image you want.",Designer
+Sentiment analysis,You have survey responses in Excel and want to extract information from the free text fields on people's experience of a new hand cream people have been testing. Create a prompt that gives you information about how people rated the product to save you having to read each entry.,sentiment-analysis.jpeg,"`- What particular insights do you want to extract? 
+- Are there any themes or categories you want to focus on?",Excel
