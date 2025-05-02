@@ -88,7 +88,7 @@ Value: ID of an M365 group that contains admins for the Prompt Master app. This 
 2. Click on the **Solutions** tab.
 3. Click on **Import**.
 4. Upload the **PromptMaster_1_0_0_0.zip** solution file and click **Next** (version number may differ).
-5. Click **Sign in** next to the SharePoint and Office 365 Groups Connection Of and wait for the green tick.
+5. Click **Sign in** next to the SharePoint and Office 365 Groups Connection and wait for the green tick.
 6. Click **Create** next to the custom connector connection (Prompt Master Azure OAI Connection). Enter any name you wish for the 'Connection name' and enter the API key for your OpenAI deployment that you created earlier and click **Create**.
 7. Click **Next**.
 8. On the **Environment Variables** pane, select the SharePoint site you created (you may need to paste the URL into the dropdown if it cannot be found), the relevant lists and enter the URL to your Prompt Master site. (Ignore any warnings about access).
@@ -114,24 +114,7 @@ Bear in mind that as the solution uses a custom connector and this is invoked vi
 
 **Note - These accounts will have access to all lists in the site to add/edit/delete items. As Prompt Master is designed to be used for excitment events/promptathons and not company wide use, this typically wouldn't be an issue. Ensure that you run the app as a user account whom you are happy to have this level of access.**
 
-## Step 7: Reconnect the flows
-
-At the time of writing, due to a Power Apps bug, the app must be edited and the flows removed and re-added. Follow the steps below to do this:
-
-1. Locate the app in **Power Apps** and edit it.
-2. Click the elipsis on the left menu.
-3. Locate the 'Create Player Name' and 'Rate Prompt' flows and click the elipsis.
-4. Click 'Remove from app' for each one.
-
-<img src="https://github.com/pnp/prompt-master/blob/main/Documentation/Images/promptmaster-app-removeflows.png?raw=true" alt="Prompt Master App Remove Flow Screenshot"><br/>
-
-5. Click 'Add flow' and click the 'Create Player Name' and 'Rate Prompt' flows to add them back into the app.
-
-<img src="https://github.com/pnp/prompt-master/blob/main/Documentation/Images/promptmaster-app-addflows.png?raw=true" alt="Prompt Master App Add Flow Screenshot"><br/>
-
-6. Save and publish the app and leave edit mode.
-
-## Step 8: Run the app
+## Step 7: Run the app
 
 Locate the app in the Power Apps portal and run it.
 
@@ -141,7 +124,7 @@ If the user account you are using to run Prompt Master as does not have a premiu
 
 Ensure that the app opens at the start screen and is ready for play.
 
-## Step 9 (Optional): Import sample challenges
+## Step 8 (Optional): Import sample challenges
 
 Sample challenges can be found in the [Challenges.csv](/Challenges.csv) file.
 
@@ -251,7 +234,7 @@ Value: ID of the Prompt Master Pro Power App (we will get this value later).
 2. Click on the **Solutions** tab.
 3. Click on **Import**.
 4. Upload the **PromptMasterPro_1_0_0_0.zip** solution file and click **Next** (version number may differ).
-5. Click **Sign in** next to the SharePoint and Office 365 Groups Connection Of and wait for the green tick.
+5. Click **Sign in** next to the SharePoint and Office 365 Groups Connection and wait for the green tick.
 6. Click **Create** next to the custom connector connection (Prompt Master Pro Azure OAI Connection). Enter any name you wish for the 'Connection name' and enter the API key for your OpenAI deployment that you created earlier and click **Create**.
 7. Click **Next**.
 8. On the **Environment Variables** pane, select the SharePoint site you created (you may need to paste the URL into the dropdown if it cannot be found), the relevant lists and enter the URL to your Prompt Master Pro site. (Ignore any warnings about access).
